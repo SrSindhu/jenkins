@@ -25,7 +25,7 @@ public class HotelApplogintest {
 	    driver.findElement(By.id("username")).sendKeys("anasuya02");
 	    driver.findElement(By.id("password")).sendKeys("Sindhu@30");
 	    driver.findElement(By.id("login")).click();
-		system.out.println("login successfull");
+		system.out.println("login success");
 	}
 
 	@Then("User is successfully navigated to Hotel app page")
